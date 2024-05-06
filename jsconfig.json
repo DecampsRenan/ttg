@@ -1,0 +1,6 @@
+{
+  "include": ["./index.js"],
+  "compilerOptions": {
+    "strict": true
+  }
+}

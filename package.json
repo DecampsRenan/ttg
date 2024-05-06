@@ -1,0 +1,33 @@
+{
+  "name": "ttg",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ttg": "./index.js"
+  },
+  "files": [
+    "./index.js",
+    "./package.json",
+    "./README.md"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "prettier": "@decampsrenan/prettier-config",
+  "dependencies": {
+    "clipboardy": "4.0.0",
+    "ky": "1.2.4",
+    "micro": "10.0.1",
+    "open": "10.1.0",
+    "ora": "8.0.1",
+    "prompts": "2.4.2",
+    "uuid": "9.0.1",
+    "yargs": "17.7.2"
+  },
+  "devDependencies": {
+    "@decampsrenan/prettier-config": "3.0.0",
+    "prettier": "3.2.5"
+  }
+}
